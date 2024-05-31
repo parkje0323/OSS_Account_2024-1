@@ -64,7 +64,7 @@ def user_reg_include_name_phone():  # 이름과 전화번호 정보를 포함한
 전화번호를 통해 아이디를 찾는 함수
 """
 def find_id_by_phone():
-    phone = input("찾고자 하는 사용자의 전화번호 입력: ")  # 사용자가 찾고자 하는 전화번호를 입력받음
+    phone = input("찾고자 하는 사용자의 전화번호 입력: ")  # 사용자가 찾고자 하는 전화번호를 입력받음.
     if phone in userphones:  # 입력받은 전화번호가 userphones 딕셔너리에 존재하는지 확인
         print(f'해당 전화번호로 등록된 아이디는 {userphones[phone]}입니다.')  # 존재하면 해당 전화번호에 매핑된 아이디를 출력
     else:
